@@ -1,5 +1,4 @@
 name: Generate ascii work
-
 on: push
 jobs: 
     ascii_job:
