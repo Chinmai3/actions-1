@@ -11,16 +11,8 @@ jobs:
             - name: welcome message
               run: | 
                 echo "My first Github actions job"
-                ls-ltra
+                ls -ltra
                 cat README.md
 
-            - name: Generate ASCII artwork
-              run: cowsay -f dragon "Run for cover, I am a DRAGON ..RAWR" >> dragon.txt
-
-            - name: list files
-              run: ls
-
-            - name: Display the README.md file
-              run: cat README.md
 
             
